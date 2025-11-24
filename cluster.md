@@ -45,7 +45,7 @@ Host hse_cluster
   HostName cluster.hpc.hse.ru
   User <username>
   Port 2222
-  ForwardAgent yes  # пересылка ssh-ключей (например, для GitHub)
+  ForwardAgent yes
   IdentityFile ~/.ssh/hse_cluster
 ```
 
